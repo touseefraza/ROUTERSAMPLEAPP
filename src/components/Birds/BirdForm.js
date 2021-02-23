@@ -6,6 +6,7 @@ export default function BirdForm(){
 	const [birdName,setBird]=useState('');
 	const dispatch = useDispatch();
 	const handleSubmit = event => {
+		console.log("test");
 		console.log(birdName);
 		event.preventDefault();
 		dispatch(addBird(birdName))
