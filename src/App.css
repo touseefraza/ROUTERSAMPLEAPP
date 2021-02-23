@@ -10,7 +10,9 @@
     margin: 10px 0;
     cursor: pointer;
 }
-
+.test-class{
+	border: 2px red solid;
+}
 .wrapper ul button {
     background: none;
     border: none;
