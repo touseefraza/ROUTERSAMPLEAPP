@@ -7,6 +7,7 @@ export default function BirdForm(){
 	const dispatch = useDispatch();
 	const handleSubmit = event => {
 		console.log("test");
+		console.log("chages for learn");
 		console.log(birdName);
 		event.preventDefault();
 		dispatch(addBird(birdName))
